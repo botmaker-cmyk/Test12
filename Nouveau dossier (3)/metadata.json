@@ -1,0 +1,6 @@
+{
+  "name": "Oum Mohamed",
+  "description": "Premium Algerian traditional pâtisserie and luxury cake boutique.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
