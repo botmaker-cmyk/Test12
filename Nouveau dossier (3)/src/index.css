@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-sand-50: #FCFAF6;
+  --color-sand-100: #FAF5EC;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #C5A028;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FDFBF8;
+  color: #1c1917;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar styling for premium boutique look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F3;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5D5B8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A028;
+}
+
